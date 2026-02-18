@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+finch_server.log
+
+# Output files
+output.html
+
+# Bedrock AgentCore local runtime
+.bedrock_agentcore/
+.bedrock_agentcore.yaml
+.amazonq/
