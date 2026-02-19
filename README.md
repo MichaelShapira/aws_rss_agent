@@ -24,7 +24,7 @@ The agent uses the following tools:
 
 ## Model
 
-The agent uses **Claude Sonnet 4** (`us.anthropic.claude-sonnet-4-6`) via Amazon Bedrock.
+The agent uses **Claude Sonnet 4.6** (`us.anthropic.claude-sonnet-4-6`) via Amazon Bedrock.
 
 ## Prerequisites
 
