@@ -120,13 +120,13 @@ This will:
 
 ### Invoke the deployed agent
 
-Once the endpoint is ready, use `execute_agent.py` to call it:
+Once the endpoint is ready, use `execute_agent.py` to call it (use YOUR arn):
 
 ```bash
 python execute_agent.py --arn "arn:aws:bedrock-agentcore:us-east-1:123456789012:runtime/my-agent-id"
 ```
 
-You can also customize the prompt and region:
+You can also customize the prompt and region (use YOUR arn):
 
 ```bash
 python execute_agent.py \
