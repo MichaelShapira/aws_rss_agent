@@ -59,7 +59,7 @@ python rss.py --prompt "Amazon Bedrock"
 This creates the agent, connects to the MCP server, processes the request, and prints the Markdown output to stdout. You can redirect it to a file:
 
 ```bash
-python rss.py --prompt "Amazon S3" > output.md
+python rss.py --prompt "Amazon Bedrock" > output.md
 ```
 
 ### With AgentCore local dev server
@@ -131,8 +131,8 @@ You can also customize the prompt and region:
 ```bash
 python execute_agent.py \
   --arn "arn:aws:bedrock-agentcore:us-east-1:123456789012:runtime/my-agent-id" \
-  --prompt "Amazon S3" \
-  --region us-west-2
+  --prompt "Amazon Bedrock" \
+  --region us-east-1
 ```
 
 ## Example Output
